@@ -1,0 +1,31 @@
+@using Microsoft.AspNetCore.Identity
+@using BlogCw.Areas.Identity.Data
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a id="blog" class="nav-link" asp-controller="Blog" asp-action="WriteBlog" title="Write Blog">Write Blog</a>
+    </li>
+    <li class="nav-item">
+        <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Profile</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link btn btn-link border-0">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>

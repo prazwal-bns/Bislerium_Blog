@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/obj/Debug/net7.0/scopedcss/projectbundle/BlogCw.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlogCw.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/6160233a-46c9-48a4-8dd0-f03f6a0d1f06_DSC01554.JPG",
+      "PackagePath": "staticwebassets/featured_images/6160233a-46c9-48a4-8dd0-f03f6a0d1f06_DSC01554.JPG"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/9fae25da-221c-43d6-8b48-c042d3536d6e_DSC02197.webp",
+      "PackagePath": "staticwebassets/featured_images/9fae25da-221c-43d6-8b48-c042d3536d6e_DSC02197.webp"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/a1a4ef7f-8d8d-43df-b3f5-27e46c33759d_famous-celebrities-who-loved-playing-snake-game.webp",
+      "PackagePath": "staticwebassets/featured_images/a1a4ef7f-8d8d-43df-b3f5-27e46c33759d_famous-celebrities-who-loved-playing-snake-game.webp"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/a345d681-1e85-4538-9f7c-ca41e1bb6557_jagat-sir.webp",
+      "PackagePath": "staticwebassets/featured_images/a345d681-1e85-4538-9f7c-ca41e1bb6557_jagat-sir.webp"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/bf8c67b6-98fe-4fe1-9b18-ec1fa828f513_meeting.webp",
+      "PackagePath": "staticwebassets/featured_images/bf8c67b6-98fe-4fe1-9b18-ec1fa828f513_meeting.webp"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/featured_images/e700feac-32d1-4ac7-80e1-a0496fa957c2_21049982 Citizenship.jpg",
+      "PackagePath": "staticwebassets/featured_images/e700feac-32d1-4ac7-80e1-a0496fa957c2_21049982 Citizenship.jpg"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/.DS_Store"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.json",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.json"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.scss",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/bootstrap-icons.scss"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap-icons-1.10.5/font/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/lib/bootstrap-icons-1.10.5/font/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/toast.css",
+      "PackagePath": "staticwebassets/lib/toast.css"
+    },
+    {
+      "Id": "/Users/kishansunar/RiderProjects/BlogCw/wwwroot/lib/toast.js",
+      "PackagePath": "staticwebassets/lib/toast.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlogCw.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BlogCw.props",
+      "PackagePath": "build\\BlogCw.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlogCw.props",
+      "PackagePath": "buildMultiTargeting\\BlogCw.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BlogCw.props",
+      "PackagePath": "buildTransitive\\BlogCw.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

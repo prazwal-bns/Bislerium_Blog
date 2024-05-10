@@ -1,0 +1,42 @@
+﻿@using BlogCw.Areas.Identity.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@{
+var user = await UserManager.GetUserAsync(User);
+var userId = user?.Id;
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+<section>
+    <div class="container">
+        <form enctype="multipart/form-data" asp-action="Create" asp-controller="Blog" method="post">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="mb-2">Write Blog</h4>
+                </div>
+                <div class="card-body">
+                    <div class="d-none">
+                        <input name="UserId" value="@userId" type="hidden"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="floatingPhoto" class="form-label">Featured Image</label>
+                        <input name="FeaturedImage" class="form-control" accept="image/*" type="file" id="floatingPhoto">
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input name="title" type="text" class="form-control" id="floatingInput" placeholder="What's on your mind?">
+                        <label for="floatingInput">Title</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea name="body" style="height: 200px" class="form-control" id="floatingDescription"></textarea>
+                        <label for="floatingDescription">Description</label>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-danger">Publish</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

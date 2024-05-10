@@ -1,0 +1,104 @@
+@{
+ViewData["Title"] = "Details Page";
+}
+@model Blog?
+<section>
+    <div class="container pb-5">
+        <div class="row gap-4 mb-5">
+            <div class="col-md-8 mx-auto">
+                <div class="mb-2">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
+                            <a asp-controller="Blog" asp-action="Upvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                                <i class="me-2 bi bi-caret-up-fill"></i>
+                                <span>@Model.Upvotes Upvotes</span>
+                            </a>
+                            <a asp-controller="Blog" asp-action="Downvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                                <i class="me-2 bi bi-caret-down-fill"></i>
+                                <span>@Model.Downvotes Downvotes</span>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a asp-controller="Blog" asp-action="Upvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                                <i class="me-2 bi bi-pencil"></i>
+                                <span>Edit</span>
+                            </a>
+                            <button class="btn btn-sm rounded-pill px-4 btn-light" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                <i class="me-2 bi bi-trash"></i>
+                                <span>Delete</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <img src="@Model.FeaturedImagePath" class="w-100" alt="@Model.Title"/>
+                </div>
+
+                <h1>@Model.Title</h1>
+                <p>@Model.Body</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="comments rounded-1">
+                    <h2>Comments</h2>
+                    <div class="comment">
+                        <p class="comment-author">John Doe</p>
+                        <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a asp-controller="Blog" asp-action="Upvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                            <i class="me-2 bi bi-caret-up-fill"></i>
+                            <span>@Model.Upvotes Upvotes</span>
+                        </a>
+                        <a asp-controller="Blog" asp-action="Downvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                            <i class="me-2 bi bi-caret-down-fill"></i>
+                            <span>@Model.Downvotes Downvotes</span>
+                        </a>
+                    </div>
+                    <div class="comment">
+                        <p class="comment-author">Jane Smith</p>
+                        <p class="comment-text">Nulla facilisi. Etiam eget libero nec lacus interdum lobortis.</p>
+                        <a asp-controller="Blog" asp-action="Upvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                            <i class="me-2 bi bi-caret-up-fill"></i>
+                            <span>@Model.Upvotes Upvotes</span>
+                        </a>
+                        <a asp-controller="Blog" asp-action="Downvote" asp-route-id="@Model.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                            <i class="me-2 bi bi-caret-down-fill"></i>
+                            <span>@Model.Downvotes Downvotes</span>
+                        </a>
+                    </div>
+                    <!-- Add more comments as needed -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="comment-form rounded-1">
+                    <h2>Add a Comment</h2>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Your Comment:</label>
+                            <textarea class="form-control" id="comment" name="comment" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Are you sure?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    You want to delete this blog
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a asp-controller="Blog" asp-action="Delete" asp-route-id="@Model.Id" type="button" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

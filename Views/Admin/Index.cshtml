@@ -1,0 +1,47 @@
+@model AdminDashboardViewModel
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<section class="pt-2 pb-5">
+    <div class="container mt-5">
+        <div class="mb-4">
+            <h4>Hello, Admin</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">All-Time Stats</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Total Blog Posts: @Model.AllPostsCount</li>
+                            <li class="list-group-item">Total Upvotes: @Model.TotalUpvotes</li>
+                            <li class="list-group-item">Total Downvotes: @Model.TotalDownvotes</li>
+                            <li class="list-group-item">Total Comments: @Model.TotalComments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Month Specific Stats (Current Month)</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Blog Posts This Month: @Model.MonthPostsCount</li>
+                            <li class="list-group-item">Upvotes This Month: @Model.MonthUpvotes</li>
+                            <li class="list-group-item">Downvotes This Month: @Model.MonthDownvotes</li>
+                            <li class="list-group-item">Comments This Month: @Model.MonthComments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>

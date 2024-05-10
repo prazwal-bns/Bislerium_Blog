@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Blog>
+<section>
+    <div class="container pb-5">
+        <div class="py-5">
+            <a asp-action="Index" class="btn btn-outline-primary rounded-pill mr-2" asp-route-sortOrder="random">Sort by Random</a> |
+            <a asp-action="Index" class="btn btn-outline-primary rounded-pill mr-2" asp-route-sortOrder="popularity">Sort by Popularity</a> |
+            <a asp-action="Index" class="btn btn-outline-primary rounded-pill mr-2" asp-route-sortOrder="recency">Sort by Recency</a>
+        </div>
+        <div class="row gap-4">
+            @foreach (var blog in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header p-0 overflow-hidden">
+                            <img src="@blog.FeaturedImagePath" class="card-img-top" alt="@blog.Title"/>
+
+                        </div>
+                        <div class="card-body">
+                            <a class="text-black" asp-controller="Blog" asp-action="Details" asp-route-id="@blog.Id">
+                                <h5>@blog.Title</h5>
+                                <p>
+                                    @blog.Body.Substring(0, 100)
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a asp-action="Upvote" asp-route-id="@blog.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                                <i class="me-2 bi bi-caret-up-fill"></i>
+                                <span>@blog.Upvotes Upvotes</span>
+                            </a>
+                            <a asp-action="Downvote" asp-route-id="@blog.Id" class="btn btn-sm rounded-pill px-4 btn-light">
+                                <i class="me-2 bi bi-caret-down-fill"></i>
+                                <span>@blog.Downvotes Downvotes</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
